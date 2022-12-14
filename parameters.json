@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServiceAppName": {
+            "value": "aperez-assignment-fe"
+        },
+        "appServicePlanName": {
+            "value": "aperez-asssignemnt"
+        },
+        "storageAccountName": {
+            "value": "aperezstorage"
+        },
+        "ServiceAppName": {
+            "value": "aperez-assignement-be"
+        }
+    }
+}

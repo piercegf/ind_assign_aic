@@ -1,5 +1,5 @@
 param location string = resourceGroup().location
-param ServiceAppName string = 'aperez-assignement-be'
+param ServiceAppName string = 'aperez-assignment-be'
 param appServiceAppName string = 'aperez-assignment-fe'
 param appServicePlanName string = 'aperez-asssignment-asp'
 @allowed([

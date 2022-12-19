@@ -1,7 +1,7 @@
 @sys.description('The Web BE App name')
 @minLength(3)
 @maxLength(24)
-param ServiceAppName string = 'aperez-assignement-be'
+param ServiceAppName string = 'aperez-assignment-be'
 
 @sys.description('The Web FE App name')
 @minLength(3)
@@ -11,7 +11,7 @@ param appServiceAppName string = 'aperez-assignment-fe'
 @sys.description('The App Service Plan name')
 @minLength(3)
 @maxLength(24)
-param appServicePlanName string = 'aperez-asssignemnt-asp'
+param appServicePlanName string = 'aperez-asssignment-asp'
 
 @sys.description('The Storage Account name')
 @minLength(3)
